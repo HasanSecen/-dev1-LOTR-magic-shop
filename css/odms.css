@@ -1,0 +1,102 @@
+body {
+    text-align: center;
+    font-family: 'Oswald', sans-serif;    
+    background-image:url("/images/temelbackground.jpg");
+}
+
+h2 {
+    font-size: 48px;
+    font-family: 'Lilita One', cursive;
+    color: rgb(255, 226, 226);
+}   
+
+h3 {
+    font-size: 20px;
+    font-family: 'Lilita One', cursive;
+    color: rgb(145, 0, 0);
+}   
+
+p {
+    font-size: 20px;
+    font-family: 'Lilita One', cursive;
+    color: rgb(104, 0, 0);
+    background-color: honeydew;
+}   
+
+article h2 {
+    font-size: 48px;
+    font-family: 'Lilita One', cursive;
+    color: rgb(255, 226, 226);
+}   
+
+.banner {
+   position: absolute; 
+   top: 130px; 
+   left: 410px;
+   color:goldenrod; 
+   font-family: 'Lilita One';
+   font-size: 48px;
+}
+
+#top{
+    text-align: center;
+    background-image:url("/images/topbanner.jpeg");
+    
+}
+
+.menubar {
+    list-style-type: none;
+    overflow: hidden;
+    
+}
+
+.menubar li {
+    display:inline-block;
+}
+
+.menubar li a {
+    display: block;
+    padding:16px 18px;
+    color:rgb(218, 193, 193);
+    text-decoration:none;
+    font-family: 'Lilita One', cursive;
+}
+
+.menu li a:hover{
+    background-image:url("/images/topbanner.jpeg");
+}
+
+.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    width: 180px;
+    background-image:url("/images/galleryarkaplan.jpg");
+    display:inline-block;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+.gallery:hover {
+    border: 1px solid #777;
+  }
+
+.desc {
+    padding: 15px;
+    text-align: center;
+    font-family: 'Lilita One', cursive;
+    color: rgb(145, 0, 0);
+}
+
+footer {
+    margin: 10px 0px;
+    padding:5px;
+    
+}
+
+#alt{
+    text-align: center;
+    background-image:url("/images/topbanner.jpeg")
+}
