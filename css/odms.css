@@ -1,7 +1,7 @@
 body {
     text-align: center;
     font-family: 'Oswald', sans-serif;    
-    background-image:url("/images/temelbackground.jpg");
+    background-image:url("../images/temelbackground.jpg");
 }
 
 h2 {
@@ -40,7 +40,7 @@ article h2 {
 
 #top{
     text-align: center;
-    background-image:url("/images/topbanner.jpeg");
+    background-image:url("../images/topbanner.jpeg");
     
 }
 
@@ -63,14 +63,14 @@ article h2 {
 }
 
 .menu li a:hover{
-    background-image:url("/images/topbanner.jpeg");
+    background-image:url("../images/topbanner.jpeg");
 }
 
 .gallery {
     margin: 5px;
     border: 1px solid #ccc;
     width: 180px;
-    background-image:url("/images/galleryarkaplan.jpg");
+    background-image:url("../images/galleryarkaplan.jpg");
     display:inline-block;
 }
 
@@ -98,5 +98,5 @@ footer {
 
 #alt{
     text-align: center;
-    background-image:url("/images/topbanner.jpeg")
+    background-image:url("../images/topbanner.jpeg")
 }
